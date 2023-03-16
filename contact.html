@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+  </head>
+
+  <body>
+    <center>
+      <form action="mailto:pratikmanandhar9@gmail.com?subject=hello" method="post" style="width: 40%;"
+        enctype="text/plain">
+        <fieldset>
+          <legend>bio</legend>
+          <p>
+            <label for="mail">Email</label>
+            <input type="email" id="mail" name="mail" placeholder="enter your email" required>
+          </p>
+          <p>
+            <label for="name">Fullname</label>
+            <input type="text" id="name" name="name" placeholder="enter your name" required>
+          </p>
+          <p>
+          <h2>swlect your gender</h2>
+          <label for="male">Male</label>
+          <input type="radio" id="male" name="gender" value="male" checked>
+          <label for="female">Female</label>
+          <input type="radio" id="female" name="gender" value="female">
+          </p>
+          <p>
+          <h2>select hobbies</h2>
+          <label for="dance">Dance</label>
+          <input type="checkbox" id="dance" name="dance" value="dance">
+          <label for="football">Football</label>
+          <input type="checkbox" id="football" name="football" value="football">
+          <label for="traveling">Traveling</label>
+          <input type="checkbox" id="traveling" name="traveling" value="traveling" checked>
+          <label for="coding">Coding</label>
+          <input type="checkbox" id="coding" name="coding" value="coding">
+          </p>
+          <p>
+            <label for="fav">Favourite </label>
+            <select name="fav" id="fav">
+              <optgroup label="Iced Coffee">
+                <option value="iced">Iced Latte</option>
+                <option value="iced tea">iced Lemon Tea</option>
+              </optgroup>
+              <option value="latte">Latte</option>
+              <option value="mocha">Mocha</option>
+              <option value="cappucinno" selected>Cappucinno</option>
+              <option value="expresso">Expresso</option>
+
+            </select>
+          </p>
+          <p>
+            <label for="date">Date</label>
+            <input type="date" name="date" id="date">
+          </p>
+          <p>
+            <label for="image">Select File</label>
+            <input type="file" accept="image/*" name="image" id="image">
+          </p>
+          <p>
+            <label for="msg">Message</label><br>
+            <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+          </p>
+          <p>
+            <label for="color">Color</label>
+            <input type="color" name="color" id="color">
+          </p>
+          <p>
+            <label for="image">Image</label>
+            <input type="image" src="images/cvpic.jpg" height="200px" width="500px">
+          </p>
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+        </fieldset>
+
+      </form>
+    </center>
+
+  </body>
+
+</html>
