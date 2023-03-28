@@ -1,0 +1,141 @@
+* {
+  margin: 0px;
+  padding: 0px;
+
+}
+
+/*header part*/
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  width: 100%;
+}
+
+header nav {
+  background-color: black;
+}
+
+header .logo {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+header .logo img {
+  padding: 5px;
+  height: 40px;
+
+
+}
+
+header .logo h2 {
+  font-size: 30px;
+  padding: 10px;
+  padding-left: 0px;
+
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+nav ul li {
+  padding: 10px;
+  list-style-type: none;
+
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+
+}
+
+ul li button {
+  background-color: rgb(42, 175, 42);
+  color: white;
+  height: 40px;
+  width: 80px;
+  border-radius: 7px;
+
+}
+
+/* bodypart1*/
+.heading {
+  display: flex;
+  justify-content: center;
+  font-size: 150%;
+  margin-top: 5%;
+}
+
+/* bodypart2 */
+.grid {
+  display: grid;
+  margin-top: 1%;
+
+}
+
+.grid .box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2%;
+  margin-top: 5%;
+}
+
+.grid .box i {
+  color: rgb(61, 168, 61);
+  border: 3px solid rgb(61, 168, 61);
+  border-radius: 50px;
+  padding: 1%;
+  margin: 2% 10%;
+  align-self: center;
+}
+
+.grid .box .box1 i {
+  margin-left: 15%;
+}
+
+.grid .box .box2 i {
+  margin: 2% 32%;
+}
+
+.grid .box .box3 i {
+  margin: 2% 30%;
+}
+
+.grid .box h2 {
+  color: rgb(61, 168, 61);
+}
+
+/* CSS Responsive */
+@media (max-width:800px) {
+  nav ul {
+    display: block;
+
+
+  }
+}
+
+@media (max-width:1400px) {
+  .heading {
+
+    font-size: 200%;
+  }
+}
+
+@media (max-width:700px) {
+  .heading {
+
+    font-size: 100%;
+  }
+}
+
+@media (max-width:450px) {
+  .heading {
+
+    font-size: 80%;
+  }
+}
