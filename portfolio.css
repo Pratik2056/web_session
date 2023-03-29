@@ -9,7 +9,7 @@ body {
   background-image: url('images/portfolio.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: 40% 25%;
 
 }
 
@@ -95,7 +95,7 @@ ul li a:hover {
 /* CSS Responsive */
 @media (max-width:1300px) {
   body {
-    background-position: 2% 20%;
+    background-image: url('images/portfolio.jpg');
   }
 
   .info {
