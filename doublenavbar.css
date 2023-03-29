@@ -1,0 +1,251 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* header part */
+header {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(62, 164, 196);
+  color: white;
+  height: 70px;
+  border-radius: 10px;
+}
+
+header .logo {
+  color: white;
+  font-size: 40px;
+  margin-left: -20%;
+
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  margin-right: 50px;
+}
+
+nav ul li {
+  list-style-type: none;
+  padding: 10px;
+}
+
+nav ul li:hover {
+  color: rgb(66, 69, 70);
+}
+
+/* Vertical navbar */
+
+section {
+  display: flex;
+  background-color: rgb(66, 69, 70);
+  color: white;
+  height: 50vh;
+  width: 15%;
+  margin-top: 20px;
+  margin-left: 10px;
+
+
+}
+
+section .logo-2 {
+  background-color: rgb(21, 155, 196);
+  height: 5vh;
+  width: 100%;
+  font-size: 20px;
+
+}
+
+.nav ul {
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+
+
+}
+
+.nav ul li {
+  /* text-align: center; */
+  margin-left: 25px;
+  padding-top: 20px;
+}
+
+.nav ul li:hover {
+  color: rgb(21, 155, 196);
+}
+
+/* Css Responsive */
+
+@media (max-width:1450px) {
+  section .logo-2 {
+
+
+    width: 106%;
+
+
+  }
+}
+
+@media (max-width:1290px) {
+  section .logo-2 {
+
+
+    width: 100%;
+
+
+  }
+}
+
+@media (max-width:850px) {
+  header .logo {
+    color: white;
+    font-size: 40px;
+    margin-left: -10%;
+
+
+  }
+
+  section .logo-2 {
+
+
+    width: 100%;
+
+
+  }
+
+  section {
+    display: flex;
+    background-color: rgb(66, 69, 70);
+    color: white;
+    height: 40vh;
+    width: 25%;
+    margin-top: 20px;
+    margin-left: 10px;
+
+
+  }
+}
+
+@media (max-width:480px) {
+  header .logo {
+    color: white;
+    font-size: 40px;
+    margin-left: 0%;
+
+
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-right: -1%;
+  }
+
+
+  section {
+    display: flex;
+    background-color: rgb(66, 69, 70);
+    color: white;
+    height: 40vh;
+    width: 40%;
+    margin-top: 20px;
+    margin-left: 10px;
+
+
+  }
+
+  section .logo-2 {
+
+
+    width: 110%;
+
+
+  }
+}
+
+@media (max-width:420px) {
+  header .logo {
+    color: white;
+    font-size: 40px;
+    margin-left: 0%;
+
+
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-right: 1%;
+  }
+
+
+  section {
+    display: flex;
+    background-color: rgb(66, 69, 70);
+    color: white;
+    height: 40vh;
+    width: 40%;
+    margin-top: 20px;
+    margin-left: 10px;
+
+
+  }
+
+  section .logo-2 {
+
+
+    width: 107%;
+
+
+  }
+}
+
+@media (max-width:395px) {
+  header .logo {
+    color: white;
+    font-size: 40px;
+    margin-left: 0%;
+
+
+  }
+
+
+
+  nav ul {
+
+    margin-left: 1%;
+  }
+
+
+  section {
+    display: flex;
+    background-color: rgb(66, 69, 70);
+    color: white;
+    height: 40vh;
+    width: 40%;
+    margin-top: 20px;
+    margin-left: 0px;
+
+
+  }
+
+  section .logo-2 {
+
+
+    width: 101%;
+
+
+  }
+
+  .nav ul li {
+    /* text-align: center; */
+    margin-left: 22px;
+    padding-top: 10px;
+  }
+
+}
